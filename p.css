@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgb(4, 0, 1));
+}
+
+.p {
+    position: relative;
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    background: linear-gradient(to right, #00c3ff, #ffff1c, #ffff1c, #00c3ff);
+    background-size: 200%;
+    color: white;
+    animation: animationGradient 2.5s linear infinite;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.336);
+    margin-bottom: 20px;
+    margin: 20px;
+    margin-left: 50px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@keyframes animationGradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+.b {
+    color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+h3 {
+    margin-left: 40px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+p {
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+
+.m {
+    height: 50vh;
+    width: 80vw;
+    border: 2px solid yellow;
+    text-shadow: 0 0 10px rgb(86, 84, 84);
+    border-radius: 50px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.k {
+    padding-left: 20px;
+}
+
+span {
+    color: purple;
+}
+.w{
+    color: white;
+}
+.e{
+    color: white;
+}
+.ll{
+    border: 2px solid yellow;
+    height: 40vh;
+    width: 80vw;
+     text-shadow: 0 0 10px rgb(86, 84, 84);
+    border-radius: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
